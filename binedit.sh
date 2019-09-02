@@ -1,5 +1,5 @@
 #!/bin/bash
-# update 2019.9.2
+
 # -tor bin_name  
 # -ton bin_name
 # -rrtfs sourcr_bin_name edit_img_gz new_bin_name 
@@ -15,15 +15,15 @@ echo
 echo "The help message of $0"
 echo "---------------------------------"
 echo "-help"
-echo "  #Get the help message of options"
+echo "	#Get the help message of options"
 echo "-tor Source_bin "
-echo "  #Edit the kernel command line to go to the rootfs "
+echo "	#Edit the kernel command line to go to the rootfs "
 echo "-ton Source_bin "
-echo "  #Edit the kernel command line to startup normal "
+echo "	#Edit the kernel command line to startup normal "
 echo "-rrtfs Source_bin Edit_rootfsImggz Target_bin "
-echo "  #Replace the old rootfs.Img.gz in the Source_bin with the Edit_rootfsImggz to create Target_bin"
+echo "	#Replace the old rootfs.Img.gz in the Source_bin with the Edit_rootfsImggz to create Target_bin"
 echo "-d"
-echo "  #To delete the middle files of replace the rootf"
+echo "	#To delete the middle files of replace the rootf"
 echo "-e Source_bin"
 echo "	#To get the bzImage and the rootfs.img.gz(include some 00 00 in the end) from the Source_bin"
 }
