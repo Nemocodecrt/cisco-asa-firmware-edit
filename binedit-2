@@ -1,5 +1,5 @@
 #!/bin/bash
-
+# update 2019.9.2
 # -tor bin_name  
 # -ton bin_name
 # -rrtfs sourcr_bin_name edit_img_gz new_bin_name 
